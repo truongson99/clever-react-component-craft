@@ -37,17 +37,17 @@ const WhyChooseUsSection = () => {
 
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         {/* Left side - Images and Logo */}
-        <div className="relative">
-          <div className="grid grid-cols-2 gap-4 mb-8">
+        <div className="relative h-full">
+          <div className="grid grid-cols-2 gap-4 h-full">
             <img 
               src={workspace1}
               alt="Professional photo editing workspace"
-              className="w-full h-64 object-cover rounded-lg shadow-soft"
+              className="w-full h-full object-cover rounded-lg shadow-soft"
             />
             <img 
               src={workspace2}
               alt="Modern office workspace with laptop"
-              className="w-full h-64 object-cover rounded-lg shadow-soft"
+              className="w-full h-full object-cover rounded-lg shadow-soft"
             />
           </div>
           
